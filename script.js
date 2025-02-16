@@ -24,6 +24,6 @@ form.addEventListener("submit", (e) => {
       }, 4000);
     });
   }
-	age.value = "";
-	name.value = "";
+	// age.value = "";
+	// name.value = "";
 });
