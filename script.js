@@ -8,7 +8,7 @@ form.addEventListener("submit", (e) => {
   } else {
     let promise = new Promise((resolve, reject) => {
       if (parseInt(age.value) > 18) {
-        resolve(`Welcome, ${name.value} . You can vote.`);
+        resolve(`Welcome, ${name.value}. You can vote.`);
       } else {
         reject("Oh sorry . You aren't old enough.");
       }
