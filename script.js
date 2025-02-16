@@ -17,7 +17,7 @@ form.addEventListener("submit", (e) => {
     if (userAge > 18) {
       resolve(`Welcome, ${userName}. You can vote.`);
     } else {
-      reject(`Oh sorry, ${userName}. You aren't old enough.`);
+      reject(`Oh sorry ${userName}. You aren't old enough.`);
     }
   });
 
